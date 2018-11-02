@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MyFreeWebsites</title>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" type="text/css" href="MyFreeWebsites.css">
+  <link href="https://fonts.googleapis.com/css?family=Sofia|Space+Mono:400,700" rel="stylesheet">
+</head>
+<body>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/DBZ_UBX2.svg/939px-DBZ_UBX2.svg.png" width="115" height="160"/>
+  
+<iframe width="560" height="315" 
+src="https://www.youtube.com/embed/GkZ2uGz8zd4" frameborder="0" 
+allow="autoplay; encrypted-media" allowfullscreen>
+</iframe>  
+  
+<a href="http://static1.purebreak.com.br/articles/1/33/08/1/@/164460-quem-sairia-campeao-de-uma-luta-entre-go-diapo-3.jpg" style="font-family: Sofia;"> Click here for Freaky!</a>
+
+<div class="nav">
+	<div class="image">
+		<ul>
+			<a href="#"><li>Bardock</li></a>
+			<a href="file:///C:/Users/YancyTron/Documents/Characters-radtiz.html"><li>Radditz</li></a>
+			<a href="#"><li>Goku</li></a>
+			<a href="#"><li>Gohan</li></a>
+			<a href="#"><li>Goten</li></a>
+			<a href="#"><li>Pan</li></a>
+		</ul>
+	</div>
+</div>	
+
+<table>
+	<thead>
+	  <tr>
+		<th>Gohan</th>
+		<th>Over 9,000</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Gohan</td>
+			<td>Over 9,000</td>
+		</tr>
+		<tfoot>
+			<tr>
+				<td>1father</td>
+				<td>2 sibling</td>
+			</tr>
+		</tfoot>
+</table>
+
+<footer>
+	<!--<img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/medium.svg" width="300" height="300"/>-->
+	<img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/instagram.svg" width="300" height="300"/>
+	<img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/facebook.svg" width="300" height="300"/>
+	<img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/twitter.svg" width="300" height="300"/>
+</footer>
+</body>
+</html>
