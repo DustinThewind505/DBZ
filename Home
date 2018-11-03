@@ -48,7 +48,17 @@ allow="autoplay; encrypted-media" allowfullscreen>
 			</tr>
 		</tfoot>
 </table>
-
+<div class="nav2">
+	<div class="image">
+		<ul>
+			<a href="#"><li>King Vegeta</li></a>
+			<a href="file:///C:/Users/YancyTron/Documents/Characters-Vegeta.html"><li>Vegeta </li></a>
+			<a href="#"><li>Tarble</li></a>
+			<a href="#"><li>Trunks</li></a>
+			<a href="#"><li>Bulla</li></a>
+		</ul>
+	</div>
+</div>
 <footer>
 	<!--<img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/medium.svg" width="300" height="300"/>-->
 	<img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/instagram.svg" width="300" height="300"/>
