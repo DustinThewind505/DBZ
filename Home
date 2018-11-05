@@ -29,7 +29,7 @@ allow="autoplay; encrypted-media" allowfullscreen>
 	</div>
 </div>	
 
-<table>
+<!--<table>
 	<thead>
 	  <tr>
 		<th>Gohan</th>
@@ -47,7 +47,11 @@ allow="autoplay; encrypted-media" allowfullscreen>
 				<td>2 sibling</td>
 			</tr>
 		</tfoot>
-</table>
+</table>-->
+<div class="family-image">
+	<img src="https://i.pinimg.com/originals/57/fe/4a/57fe4ab7a0e8b41d1b02402e298009ce.webp" width="115" height="160">
+	<img src="https://i.pinimg.com/originals/b1/a4/b2/b1a4b20bdd2f592045677c8b815e0d52.jpg" width="115" height="160">
+</div>
 <div class="nav2">
 	<div class="image">
 		<ul>
