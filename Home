@@ -20,8 +20,8 @@ allow="autoplay; encrypted-media" allowfullscreen>
 	<div class="image">
 		<ul>
 			<a href="#"><li>Bardock</li></a>
-			<a href="file:///C:/Users/YancyTron/Documents/Characters-radtiz.html"><li>Radditz</li></a>
 			<a href="#"><li>Goku</li></a>
+			<a href="file:///C:/Users/YancyTron/Documents/Characters-radtiz.html"><li>Radditz</li></a>
 			<a href="#"><li>Gohan</li></a>
 			<a href="#"><li>Goten</li></a>
 			<a href="#"><li>Pan</li></a>
@@ -29,31 +29,17 @@ allow="autoplay; encrypted-media" allowfullscreen>
 	</div>
 </div>	
 
-<!--<table>
-	<thead>
-	  <tr>
-		<th>Gohan</th>
-		<th>Over 9,000</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>Gohan</td>
-			<td>Over 9,000</td>
-		</tr>
-		<tfoot>
-			<tr>
-				<td>1father</td>
-				<td>2 sibling</td>
-			</tr>
-		</tfoot>
-</table>-->
 <div class="family-image">
-	<img src="https://i.pinimg.com/originals/57/fe/4a/57fe4ab7a0e8b41d1b02402e298009ce.webp" width="115" height="160">
-	<img src="https://i.pinimg.com/originals/b1/a4/b2/b1a4b20bdd2f592045677c8b815e0d52.jpg" width="115" height="160">
+	<img src="https://i.pinimg.com/originals/57/fe/4a/57fe4ab7a0e8b41d1b02402e298009ce.webp" width="130" height="175"/>
+	<img src="https://i.pinimg.com/originals/b1/a4/b2/b1a4b20bdd2f592045677c8b815e0d52.jpg" width="130" height="175"/>
+	<img src="https://i.ytimg.com/vi/u2KqDDxMT94/hqdefault.jpg" width="130" height="175"/>
+	<img src="https://i.pinimg.com/736x/19/26/ee/1926eec5c28b6321ec13571dd4e24b5d--anime-land-trunks-dbz.jpg" width="130" height="175"/>
+	<img src="https://pm1.narvii.com/6366/9e85de65ac8d77d2d84d6bb76a7bdfc7c87b637a_hq.jpg" width="130" height="175"/>
+	<img src="https://i.pinimg.com/originals/23/27/21/2327216f8a583e016e1848d8bd52f66d.jpg" width="130" height="175"/>
 </div>
+
 <div class="nav2">
-	<div class="image">
+	<div id="image2">
 		<ul>
 			<a href="#"><li>King Vegeta</li></a>
 			<a href="file:///C:/Users/YancyTron/Documents/Characters-Vegeta.html"><li>Vegeta </li></a>
