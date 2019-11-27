@@ -1,103 +1,62 @@
 html, body {  
   font-family: "helvetica" sans-serif;
-  background-color: DodgerBlue;
   background: url(https://orig00.deviantart.net/a7e8/f/2016/282/d/c/frieza_saga_vegito_by_zachjacobs-d7icpiu.png) repeat;
-  margin: 10;
-  width: 100%;
-  height: 100%;
-}
-
-h1 {
-  font-size: 48px;
-  font-family: "Bangers", cursive;
-  
-}
-
-p {
-  max-width: 65%;
-  min-width: 500px;
-
-}
-
-h2 {
-  text-align: center;
-  font-size: 2.6rem;
-  
-}
-h3 {
-	color: DodgerBlue;
-	  
-}
-
-div {
-  padding-right: 30px;
-  height: 100%;
-  width: 100%;
 }
 
 iframe {
   background-color: #000000;
   border: 5px solid #FFF;
-  margin: 20px;
   position: absolute;
-  left: 750px;
-
+  right: 0;
 }
 
-table {
-	border: 8px double DarkOliveGreen;
-	width: 110px;
-	font-family: cursive;
-}
-
-footer{
-  background-color: #ffa500;
-  border-radius: 30px;
-  text-align: center;
-  width: 1000px;
-  margin-bottom: 20px;
-}
-
-ul {
-	padding: 0 20px;
-	display: inline-block;
-}
-
-li {
-	background-color: DarkOliveGreen;
-	font-size: 18px;
-	width: 110px;
-    cursor: url(http://ani.cursors-4u.net/anime/ani-13/ani1235.ani), url(http://ani.cursors-4u.net/anime/ani-13/ani1235.png), auto !important;
-	display: inline;
-}
-
-
-.nav { 
+nav { 
   background: #000;
   height: 80px; 
   width: 800px;
 }
 
-.nav ul {
-  height: 80px;
+nav ul {
   list-style: none;
   margin: 0 auto; 
   padding: 0;
 }
 
-.nav ul li {
+nav ul li {
+  background-color: DarkOliveGreen;
   color: #fff;
+  width: 110px;
+  font-size: 18px;
   display: inline-block; 
-  height: 80px;
   line-height: 80px; 
-  list-style: none;
-  padding: 0 10px;
-  transition: background .5s; 
+  padding: 0 10px; 
 }
 
-.btn:hover, .nav ul li:hover {
+ nav ul li:hover {
   background: #000080;
-  cursor: pointer; 
+  cursor: url(http://ani.cursors-4u.net/anime/ani-13/ani1235.ani), url(http://ani.cursors-4u.net/anime/ani-13/ani1235.png), auto; 
   transition: background .5s;  
 }
 
+.family-image {
+    background-color: black;
+    width: 800px
+}
+
+.family-image img {
+    width: 130px;
+    height: 175px;
+}
+
+footer{
+    border-radius: 30px;
+    width: 1000px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+  }
+
+  footer img {
+      width: 2em;
+      height: 3em;
+  }
