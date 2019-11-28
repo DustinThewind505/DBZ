@@ -1,6 +1,11 @@
-html, body {  
+html {
   font-family: "helvetica" sans-serif;
   background: url(https://orig00.deviantart.net/a7e8/f/2016/282/d/c/frieza_saga_vegito_by_zachjacobs-d7icpiu.png) repeat;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
 iframe {
@@ -8,6 +13,10 @@ iframe {
   border: 5px solid #FFF;
   position: absolute;
   right: 0;
+}
+
+a {
+  text-decoration: none;
 }
 
 nav { 
@@ -25,7 +34,7 @@ nav ul {
 nav ul li {
   background-color: DarkOliveGreen;
   color: #fff;
-  width: 110px;
+  width: 130px;
   font-size: 18px;
   display: inline-block; 
   line-height: 80px; 
