@@ -1,6 +1,10 @@
 html {
-	background-color: yellow;
-}
+    background-color: yellow;
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
 
 main {
 	background-color: #B4C420;
@@ -12,15 +16,10 @@ header {
 	background-color: transparent;
 }
 
-section {
-	background-color: ;
-	margin-bottom:;
-	
-}
+
 
 #head-image {
 	border: 1px solid black;
-	border-radius: ;
 	position: absolute;
 	right: 1em;
 	bottom: 31em;
@@ -30,9 +29,6 @@ section {
 
 	
 	/*NAV bar*/
-nav {
-	
-}
 	
 nav ul {
 	list-style-type: none;
@@ -66,15 +62,6 @@ nav ul li a {
 
 	
 	/*Gohans GT profile*/
-.profile {
-	width: 600px;
-	height: 400px;
-	background-color: white;
-	margin-top: 15px;
-	margin-left: 50px;
-	margin-bottom: 20px;
-	display: inline;
-}
 
 .left {
 	width: 50em;
@@ -173,4 +160,3 @@ aside ul li {
 		clear: both;
 	}
 }
-*/
