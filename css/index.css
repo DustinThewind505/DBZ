@@ -97,7 +97,10 @@ footer{
 /* ===================Gohan page/gohan.html=================== */
 .gohan {
   font-family: "helvetica" sans-serif;
-  background: url(https://orig00.deviantart.net/a7e8/f/2016/282/d/c/frieza_saga_vegito_by_zachjacobs-d7icpiu.png) repeat;
+}
+
+.gohan-home-container {
+  background-color: lightcyan;
 }
 /* ====header==== */
 .head-image {
@@ -110,19 +113,34 @@ footer{
 
 /* ====top section==== */
 .gohan-top-section {
-	margin-bottom: 11px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 862px;
+  margin-bottom: 11px;
 }
 
 .gohan-top-section img {
-	width: 200px;
+	width: 50px;
+  height: 50px;
 }
-	
+.gohan-top-section img.gohan-shop {
+  width: 200px;
+  }
+
 .gohan-top-section a {
-	background-color: yellow;
 	font-family: sans-serif;
 	font-weight: bold;
-	text-align: right;
 	margin-left: 100px;
+}
+
+
+
+.gohan-sign-in {
+  border: 1.5px solid #0073b1;
+  color: #0073b1;
+  border-radius: 2px;
+  padding: 10px 25px;
 }
 
 /* ====profile==== */
@@ -130,7 +148,11 @@ footer{
 .profile {
 	width: 862px;
 	height: 480px;
-	background-color: red;
+  background-color: white;
+  border: 1px solid gainsboro;
+  background-image: url(https://qph.fs.quoracdn.net/main-qimg-7c88af9bf35b687e6fc6c58b7bea1374);
+  background-repeat: no-repeat;
+  background-size: 862px 218px;
   border-radius: 2px;
   display: flex;
   justify-content: space-between;
@@ -200,41 +222,54 @@ align-items: flex-end;
   height: 250px;
   margin: 0  0 5px 100px;
 }
+ /* ====middle section==== */
+.gohan-middle-section {
+  width: 862px;
+  background-color: white;
+  border: 1px solid gainsboro;
+  margin-top: 1%;
+ }
 
+.gohan-middle-section section {
+  display: flex;
+}
 
+.lambda-logo {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
 
 
 /* ====sidebar==== */
 aside {
-	width: 300px;
+  width: 862px;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+}
+
+.gohan-coworkers {
+  display: flex;
+  justify-content: space-between;
 }
 
 .profilePicSide {
 	width: 60px;
 	height: 60px;
-	border-radius: 120px;
+  border-radius: 120px;
+  margin-left: 15px;
 }
 
-aside ul {
-	list-style-type: none;
-}
-
-aside ul li {
-	margin-bottom: 1em;
-}
-
-
-@media all and (min-width: 1100px) {
-	article {
-		float: left;
-		width: 66%;
-	}
-	aside {
-		float: left;
+@media all and (min-width: 1305px) {
+  aside {
 		padding-left: 220px;
-		width: 34%;
+    width: 420px;
+    height: 315px;
+    border: 5px solid #FFF;
+    position: absolute;
+    top: 42%;
+    right: 0;
 	}
-	footer {
-		clear: both;
-	}
+	
 }
