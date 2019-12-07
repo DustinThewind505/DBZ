@@ -2,12 +2,13 @@
   box-sizing: border-box;
 }
 
-html {
+
+/* ===================home page/index.html=================== */
+.home {
   font-family: "helvetica" sans-serif;
   background: url(https://orig00.deviantart.net/a7e8/f/2016/282/d/c/frieza_saga_vegito_by_zachjacobs-d7icpiu.png) repeat;
 }
 
-/* ===================home page/index.html=================== */
 .home-container {
   width: 100%;
   margin: 0 auto;
@@ -23,7 +24,6 @@ iframe {
   position: absolute;
   right: 0;
 }
-
 
 /* ====navigation bar==== */
 .nav-container {
@@ -93,9 +93,16 @@ footer{
   }
 
 
+  
 /* ===================Gohan page/gohan.html=================== */
+.gohan {
+  font-family: "helvetica" sans-serif;
+  background: url(https://orig00.deviantart.net/a7e8/f/2016/282/d/c/frieza_saga_vegito_by_zachjacobs-d7icpiu.png) repeat;
+}
 /* ====header==== */
 .head-image {
+  width: 560px;
+  height: 315px;
   border: 5px solid #FFF;
   position: absolute;
   right: 0;
@@ -118,33 +125,60 @@ footer{
 	margin-left: 100px;
 }
 
-nav ul li {
-	display: inline;
-	padding-left: 8px;
-	padding-right: 8px;
-}
+/* ====profile==== */
 
-nav ul li:last-child {
-	border: 1px solid blue;
-	padding: 10px;
-	margin-right: 100px;
+.profile {
+	width: 862px;
+	height: 480px;
+	background-color: red;
+  border-radius: 2px;
+  display: flex;
+  justify-content: space-between;
 }
-nav ul li a {
-	text-decoration: none;
-}
-
-
-	
-	/*Gohans GT profile*/
 
 .profile section {
-	width: 862px;
-	height: 456px;
-	background-color: red;
-	padding-bottom: 20px;
-	border: 1px solid grey;
+  display: flex;
+  justify-content: center;
 }
 
+.profile-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10% 0 0 3%;
+}
+
+.profile h1 {
+  font-size: xx-large;
+  font-weight: 600;
+  color: black;
+  margin-top: 23px;
+}
+
+.profile p {
+  margin-top: -19px;
+  font-size: larger;
+  line-height: 1.5;
+}
+
+.profile a {
+  background-color: #0073b1;
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 40px;
+  border-radius: 2px;
+  border: 0;
+  text-decoration: none;
+  text-align: center;
+  position: relative;
+  padding: 0 24px;
+}
+
+.profile-right {
+  width: 50%;
+align-items: flex-end;
+}
 
 /*
 .topBox {
@@ -154,15 +188,17 @@ nav ul li a {
 }*/
 
 .profilePic {
-	width: 133px;
-	height: 133px;
+	width: 145px;
+	height: 145px;
 	border-radius: 110px;
-	border: 5px solid white;
+  border: 4px solid white;
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.15),0 2px 3px rgba(0,0,0,0.2);
 }
 
 .profilePicBottom {
-	width: 200px;
-	height: 200px;
+	width: 250px;
+  height: 250px;
+  margin: 0  0 5px 100px;
 }
 
 
