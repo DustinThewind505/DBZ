@@ -1,11 +1,16 @@
-html {
-  font-family: "helvetica" sans-serif;
-  background: url(https://orig00.deviantart.net/a7e8/f/2016/282/d/c/frieza_saga_vegito_by_zachjacobs-d7icpiu.png) repeat;
+* {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
-  box-sizing: inherit;
+html {
+  font-family: "helvetica" sans-serif;
+  background: url(https://orig00.deviantart.net/a7e8/f/2016/282/d/c/frieza_saga_vegito_by_zachjacobs-d7icpiu.png) repeat;
+}
+
+/* ===================first page/home page/index.html=================== */
+.container {
+  width: 100%;
+  margin: 0 auto;
 }
 
 iframe {
@@ -18,38 +23,37 @@ iframe {
 a {
   text-decoration: none;
 }
-
-nav { 
-  background: #000;
-  height: 80px; 
+/* ====navigation bar==== */
+.nav-container {
   width: 800px;
+  height: 320px;
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
 }
 
-nav ul {
-  list-style: none;
-  margin: 0 auto; 
-  padding: 0;
+.nav-container nav {
+  height: 275px;
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
 }
 
-nav ul li {
-  background-color: DarkOliveGreen;
-  color: #fff;
+.nav-container nav a {
   width: 130px;
-  font-size: 18px;
-  display: inline-block; 
-  line-height: 80px; 
-  padding: 0 10px; 
+  height: 80px;
+  background-color: darkolivegreen;
+  color: white;
+  font-size: large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
- nav ul li:hover {
+.nav-container nav a:hover {
   background: #000080;
   cursor: url(http://ani.cursors-4u.net/anime/ani-13/ani1235.ani), url(http://ani.cursors-4u.net/anime/ani-13/ani1235.png), auto; 
   transition: background .5s;  
-}
-
-.family-image {
-    background-color: black;
-    width: 800px
 }
 
 .family-image img {
@@ -57,6 +61,22 @@ nav ul li {
     height: 175px;
 }
 
+/* ====top section==== */
+.home-top-section {
+  width: 100%;
+  height: 400px;
+  background-color: darkorange;
+  display: flex;
+  margin-top: 5%;
+}
+
+.home-top-section section {
+  width: 200px;
+  height: 200px;
+  background-color: beige;
+}
+
+/* ====footer==== */
 footer{
     border-radius: 30px;
     width: 1000px;
