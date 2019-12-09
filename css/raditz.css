@@ -1,0 +1,155 @@
+header {
+    background-color: #ffa500;
+    border-radius: 30px;
+    text-align: center;
+    width: 1425px;
+    opacity: 0.5;
+    transform: skewY(-8deg);
+    margin-top: -75px;
+    margin-left: -40px;
+    z-index: 2;
+   }
+   
+   footer {
+      background-color: #ffa500;
+      border-radius: 30px;
+      text-align: center;
+      width: 1325px;
+      opacity: 0.4;
+      margin: 100px;
+   }
+  
+  body {
+      background: url(https://blenderartists.org/uploads/default/original/4X/1/d/b/1dbe31629a286a6041e3879c716267fe041a624e.jpg) repeat;
+  }
+  
+  main {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 420px;
+      justify-items: center;
+      justify-content: center;
+      align-items: end;
+      align-content: center;
+      transform: skewY(-8deg);
+      width: 1345px;
+      margin-top: -1px;
+  }
+  article {
+      margin: 50px;
+  }
+  
+  p {
+      background-color: #2b002b;
+      border: 8px solid DarkOliveGreen;
+      color: #ffa500;
+      border-radius: 13px;
+      text-align: center;
+      box-shadow: 2px 2px 2px 2px rgba(128, 0, 128, 0.5);
+      height: 385px;
+  }
+  
+  h1 {
+      position: absolute;
+      left: 200px;
+      top: -60px;
+      font-size: 120px;
+      font-family: 'Ruslan Display', cursive;
+      color: #ffa500;
+      text-shadow: -1px 0 rgba(0, 0, 0, 0.5), 0 2px rgba(0, 0, 0, 0.5), 2px 0 rgba(0, 0, 0, 0.5), 0 -1px rgba(0, 0, 0, 0.5);
+      z-index: 1;
+  }
+  
+  h2 {
+      color: #ffa500;
+      text-align: center;
+      font-family: 'Oswald', cursive;
+      transform: scale(1.5);
+  }
+      
+  .top {
+      position: absolute;
+      margin-top: 17px;
+  }
+  
+  .test {
+      width: 200px;
+      height: 200px;
+      
+      border-width: 0.6px, 0px, 0.5px, 0.6px;
+  }
+  
+  .bio {
+      display: flex;
+      width: 1000px;
+      height: 1000px;
+      padding: 7px;
+      margin: 8px;
+  }
+  
+  .picture {
+      display: flex;
+      width: 80vw;
+      height: 80vmin;
+  }
+  
+  .time {
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 20px;
+    height: auto;
+  }
+  
+  footer {
+      margin: 25px;
+  }
+  
+  .highlight {
+      background-color: DarkOliveGreen;
+      width: 200px;
+      margin: 40px;
+  }
+  
+  .a {
+      box-shadow: 2px 4px 4px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .b {
+      box-shadow: 1px 3px 3px 1px rgba(0, 0, 0, 0.5), 5px 5px 5px 5px rgba(225, 225, 0, 0.5);
+  }
+  
+  .c {
+      box-shadow: 2px 5px 5px 2px rgba(173, 216, 230 ,0.5), 7px 7px 7px 7px rgba(225, 225, 0, 0.5);
+  }
+  
+  .d {
+      box-shadow: 2px 6px 6px 1px rgba(173, 216, 230, 0.5), 10px 10px 10px 10px rgba(225, 225, 0, 0.5);
+  }
+  
+  .e {
+      box-shadow: 2px 6px 6px 1px rgba(0, 0, 0, 0.5), 10px 10px 10px 10px rgba(225, 0, 0, 0.5);
+  }
+  
+  .f {
+      box-shadow: 2px 4px 4px 4px rgba(0, 0, 0, 0.5), 10px 10px 10px 10px rgba(173, 216, 230, 0.5);
+  }
+  
+  .g {
+      box-shadow: 2px 4px 4px 4px rgba(0, 0, 0, 0.5), 10px 10px 10px 10px rgba(173, 216, 230, 0.5);
+      
+  }
+  
+  .logo {
+    width: 115px;
+    height: 115px;
+    object-fit: center;
+    margin: 3;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  table {
+      border: 8px double DarkOliveGreen;
+      width: 110px;
+      font-family: cursive;
+  }

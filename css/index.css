@@ -261,15 +261,31 @@ aside {
   margin-left: 15px;
 }
 
-@media all and (min-width: 1305px) {
+@media all and (min-width: 1170px) {
   aside {
 		padding-left: 220px;
-    width: 420px;
-    height: 315px;
+    width: 25%;
+    height: 91%;
     border: 5px solid #FFF;
     position: absolute;
     top: 47%;
     right: 0;
-	}
-	
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  
+  aside section {
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  
+  aside section p, aside section p, aside section a {
+    padding-right: 440px;
+  }  
 }
