@@ -240,8 +240,57 @@ aside {
   background-color: grey;
   display: flex;
   justify-content: center;
+  animation-name: colorful;
+  animation-duration: 5s;
 
-  
+  @keyframes colorful {
+    0% {
+      background-image: url(http://pm1.narvii.com/6165/2599b70eead5f1c4fbc18bfe5acb4ad9814aa9ec_hq.jpg);
+      background-position: inherit;
+      background-repeat: no-repeat;
+    }
+    10% {
+      background-image: url(http://4.bp.blogspot.com/-tSubrRJWE5M/UFdYp09FqkI/AAAAAAAAKVg/vXAcAFv_lis/s1600/SSJ2_Gohan_Angry.jpg);
+      background-position: inherit;
+      background-repeat: no-repeat;
+    }
+    20%  {
+      background-image: url(https://66.media.tumblr.com/ad487d6d3758caab6a741482601003eb/tumblr_mqxfztZdjM1sraj9co1_500.jpg);
+      background-position: inherit;
+      background-repeat: no-repeat;
+    }
+    30% {
+      background-image: url(http://pm1.narvii.com/6165/2599b70eead5f1c4fbc18bfe5acb4ad9814aa9ec_hq.jpg);
+      background-position: inherit;
+      background-repeat: no-repeat;
+    }
+    40% {
+      background-image: url(http://4.bp.blogspot.com/-tSubrRJWE5M/UFdYp09FqkI/AAAAAAAAKVg/vXAcAFv_lis/s1600/SSJ2_Gohan_Angry.jpg);
+      background-position: inherit;
+      background-repeat: no-repeat;
+    }
+    50%  {
+      background-image: url(https://66.media.tumblr.com/ad487d6d3758caab6a741482601003eb/tumblr_mqxfztZdjM1sraj9co1_500.jpg);
+      background-position: inherit;
+      background-repeat: no-repeat;
+    }
+    60%  {
+      background-image: url(https://66.media.tumblr.com/ad487d6d3758caab6a741482601003eb/tumblr_mqxfztZdjM1sraj9co1_500.jpg);
+      background-position: inherit;
+      background-repeat: no-repeat;
+    }
+    70% {
+      background-image: url(http://pm1.narvii.com/6165/2599b70eead5f1c4fbc18bfe5acb4ad9814aa9ec_hq.jpg);
+      background-position: inherit;
+      background-repeat: no-repeat;
+    }
+    80% {
+      background-color: white;
+    }
+    100%  {
+      background-color: black;
+    }
+  }
 }
 
 .gohan-coworkers {
@@ -258,8 +307,7 @@ aside {
 
 @media all and (max-width: 800px) {
   aside {
-		padding-left: 220px;
-    width: 25%;
+    
     height: 91%;
     border: 5px solid #FFF;
     position: absolute;
@@ -276,49 +324,14 @@ aside {
   aside section {
     width:100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     align-items: flex-end;
     justify-content: center;
   }
-  
-  aside section p, aside section a {
-    padding-right: 440px;
-  }  
+   
 }
 
 
   
-  
-  @keyframes colorful {
-    0% {
-      background-image: url(http://pm1.narvii.com/6165/2599b70eead5f1c4fbc18bfe5acb4ad9814aa9ec_hq.jpg);
-    }
-    10% {
-      background-image: url(http://4.bp.blogspot.com/-tSubrRJWE5M/UFdYp09FqkI/AAAAAAAAKVg/vXAcAFv_lis/s1600/SSJ2_Gohan_Angry.jpg);
-    }
-    20%  {
-      background-image: url();
-    }
-    30% {
-      background-image: url();
-    }
-    40% {
-      background-image: url();
-    }
-    50% {
-      background-image: url();
-    }
-    60%  {
-      background-image: url();
-    }
-    70% {
-      background-image: url();
-    }
-    80% {
-      background-color: white;
-    }
-    100%  {
-      background-color: black;
-    }
-  }
+
