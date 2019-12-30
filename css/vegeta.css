@@ -1,26 +1,32 @@
 * {
 	box-sizing: border-box;
 	border: 1px solid black;
+	margin: 0;
+	padding: 0;
   }
 
-
+/* =================== navbar =================== */
 header {
 	width: 100%;
 	background-color: aquamarine;
 	display: flex;
+	justify-content: space-between;
+	align-items: center;
 	position: fixed;
-    top: 0;
     opacity: 0.95;
 }
 
+.nav-left {
+	display: flex;
+	align-items: center;
+}
 
-/* =================== navbar =================== */
+
 
 
 
 iframe {
-	margin: 250px;
-	
+	margin: 250px auto;
 }
 
 
