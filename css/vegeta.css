@@ -93,6 +93,17 @@ border-radius: 8px;
 
 .vegeta-training {
 	display: flex;
+	justify-content: space-evenly;
+}
+
+.vegeta-training p {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.vegeta-training div {
+	width: 30%;
 }
 
 #box-1, #box-2 {
@@ -103,28 +114,35 @@ border-radius: 8px;
 
 #box-1 {
 	font-family: cursive;
+	list-style-type: none;
+}
+
+#box-1 ul {
+	list-style-type: none;
 }
 
 #box-2 {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-between;
 	text-align: center;
 	
 }
 
 .training-picture-1, .training-picture-2 {
+	width: 100%;
 	border-radius: 20px;
 }
 
 .training-gif {
-	width: 80%;
+	width: 50%;
 	border-radius: 30px;
 }
 
-.training-quote1, .training-quote2, .training-quote3, .training-quote4, .training-quote5 {
-	font-size: 100px;
+.training-quote1 {
+	width: 100%;
+	font-size: 4.5em;
 	font-weight: bold;
 	font-family: 'Kanit', sans;
 }
@@ -152,7 +170,6 @@ h3 {
 	color: white;
 	letter-spacing: 0;
 	text-shadow: -1px 0 rgba(0, 0, 0, 0.5), 0 2px rgba(0, 0, 0, 0.5), 2px 0 rgba(0, 0, 0, 0.5), 0 -1px rgba(0, 0, 0, 0.5);
-	margin-bottom: -110px;
 }
 
 
