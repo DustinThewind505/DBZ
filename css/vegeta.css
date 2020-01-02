@@ -1,8 +1,12 @@
 * {
 	box-sizing: border-box;
-	border: 1px solid black;
+	border: 0;
 	margin: 0;
 	padding: 0;
+  }
+
+  body {
+	background: url(https://i.imgflip.com/1asae3.jpg) repeat;
   }
 
  
@@ -64,6 +68,7 @@ iframe {
 .vegeta-bio {
 	display: flex;
 	align-items: center;
+	justify-content: center;
 }
 
 .bio-left {
@@ -75,8 +80,6 @@ iframe {
 
 .vegeta-bio-img {
 	margin-top: -25%;
-	display: flex;
-	justify-content: flex-start;
 }
 
 .bio-left p {
