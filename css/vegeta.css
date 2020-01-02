@@ -71,7 +71,12 @@ iframe {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin-top: -10%;
+}
+
+.vegeta-bio-img {
+	margin-top: -25%;
+	display: flex;
+	justify-content: flex-start;
 }
 
 .bio-left p {
@@ -81,7 +86,7 @@ iframe {
 }
 
 .bio-picture {
-width: 100%;
+width: 90%;
 border-radius: 8px;
 }
 
@@ -148,6 +153,7 @@ border-radius: 8px;
 	display: flex;
 	align-items: center;
 	font-family: 'Acme', sans;
+	background-color: white;
 }
 
 .box-3 {
@@ -197,6 +203,20 @@ border-radius: 8px;
 .vegeta-family-middle {
 	display: flex;
 	justify-content: center;
+}
+
+.vegeta-family-bottom {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+#family .family-gif {
+	border-radius: 40px;
+	width: 20%;
+	height: 20%;
+	border: 4px solid peachpuff;
+	margin-top: -12%;
 }
 
 h1 {
