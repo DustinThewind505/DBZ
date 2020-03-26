@@ -1,5 +1,8 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 
@@ -178,7 +181,6 @@ footer{
 }
 
 .profile p {
-  margin-top: -19px;
   font-size: larger;
   line-height: 1.5;
 }
@@ -190,10 +192,8 @@ footer{
   font-weight: 600;
   line-height: 40px;
   border-radius: 2px;
-  border: 0;
   text-decoration: none;
   text-align: center;
-  position: relative;
   padding: 0 24px;
 }
 
@@ -221,10 +221,18 @@ align-items: flex-end;
   background-color: white;
   border: 1px solid gainsboro;
   margin-top: 1%;
+  padding: 0.5%;
  }
 
 .gohan-middle-section section {
   display: flex;
+}
+
+.gohan-middle-section section ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 1.7%;
 }
 
 .lambda-logo {
@@ -236,65 +244,20 @@ align-items: flex-end;
 
 /* ====sidebar==== */
 aside {
-  width: 862px;
   background-color: grey;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  animation-name: colorful;
-  animation-duration: 5s;
-
-  @keyframes colorful {
-    0% {
-      background-image: url(http://pm1.narvii.com/6165/2599b70eead5f1c4fbc18bfe5acb4ad9814aa9ec_hq.jpg);
-      background-position: inherit;
-      background-repeat: no-repeat;
-    }
-    10% {
-      background-image: url(http://4.bp.blogspot.com/-tSubrRJWE5M/UFdYp09FqkI/AAAAAAAAKVg/vXAcAFv_lis/s1600/SSJ2_Gohan_Angry.jpg);
-      background-position: inherit;
-      background-repeat: no-repeat;
-    }
-    20%  {
-      background-image: url(https://66.media.tumblr.com/ad487d6d3758caab6a741482601003eb/tumblr_mqxfztZdjM1sraj9co1_500.jpg);
-      background-position: inherit;
-      background-repeat: no-repeat;
-    }
-    30% {
-      background-image: url(http://pm1.narvii.com/6165/2599b70eead5f1c4fbc18bfe5acb4ad9814aa9ec_hq.jpg);
-      background-position: inherit;
-      background-repeat: no-repeat;
-    }
-    40% {
-      background-image: url(http://4.bp.blogspot.com/-tSubrRJWE5M/UFdYp09FqkI/AAAAAAAAKVg/vXAcAFv_lis/s1600/SSJ2_Gohan_Angry.jpg);
-      background-position: inherit;
-      background-repeat: no-repeat;
-    }
-    50%  {
-      background-image: url(https://66.media.tumblr.com/ad487d6d3758caab6a741482601003eb/tumblr_mqxfztZdjM1sraj9co1_500.jpg);
-      background-position: inherit;
-      background-repeat: no-repeat;
-    }
-    60%  {
-      background-image: url(https://66.media.tumblr.com/ad487d6d3758caab6a741482601003eb/tumblr_mqxfztZdjM1sraj9co1_500.jpg);
-      background-position: inherit;
-      background-repeat: no-repeat;
-    }
-    70% {
-      background-image: url(http://pm1.narvii.com/6165/2599b70eead5f1c4fbc18bfe5acb4ad9814aa9ec_hq.jpg);
-      background-position: inherit;
-      background-repeat: no-repeat;
-    }
-    80% {
-      background-color: white;
-    }
-    100%  {
-      background-color: black;
-    }
-  }
+  align-items: center;
+  position: absolute;
+  top: 47%;
+  right: 1%;
+  padding: 0.3%;
 }
 
 .gohan-coworkers {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
 
