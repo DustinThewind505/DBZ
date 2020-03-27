@@ -1,6 +1,6 @@
 * {
 	box-sizing: border-box;
-	border: 1px solid black;
+	border: 0;
 	margin: 0;
 	padding: 0;
   }
@@ -19,20 +19,20 @@ header {
 	align-items: center;
 	position: fixed;
 	opacity: 0.95;
+	border-bottom: 1px solid rgb(89, 89, 255);
 }
 
 .nav-left {
 	display: flex;
+	justify-content: flex-start;
 	align-items: center;
-	background-color: firebrick;
 }
 
 .nav-right {
-	width: 25%;
+	width: 43.5%;
 	text-align: end;
 	font-family: 'Permanent Marker', sans;
 	font-size: 1.5em;
-	margin-left: 12%;
 }
 
 .nav-right a {
@@ -46,7 +46,8 @@ header {
 }
 
 .nav-scouter {
-	width: 8%;
+	width: 5.5%;
+	padding-bottom: 1%;
 }
 
 iframe {
@@ -63,34 +64,30 @@ iframe {
 }
 
 .vegeta-bio-container {
+	width: 97%;
 	display: flex;
 	flex-direction: column;
 	background-color: darkgoldenrod;
-	width: 97%;
-	border-top-right-radius: 25px;
+	border-top-left-radius: 80px;
+	border-top-right-radius: 80px;
 }
 
 .vegeta-bio-container h2 {
-	background-color: darkgoldenrod;
 	border-bottom: 2px solid black;
 }
 
 .vegeta-bio {
 	display: flex;
-	align-items: center;
 	justify-content: space-between;
+	align-items: flex-start;
 }
 
 .bio-left {
 	width: 85%;
 	display: flex;
 	flex-direction: column;
-	align-items: flex-start;
+	align-items: center;
 	
-}
-
-.vegeta-bio-img {
-	margin-top: -20%;
 }
 
 .bio-left p {
@@ -237,6 +234,7 @@ h1 {
 	font-size: 140px;
 	font-family: 'Ruslan Display', cursive;
 	color: #ffa500;
+	padding-top: 3%;
 	text-shadow: -1px 0 rgba(0, 0, 0, 0.5), 0 2px rgba(0, 0, 0, 0.5), 2px 0 rgba(0, 0, 0, 0.5), 0 -1px rgba(0, 0, 0, 0.5);
 }
 
@@ -248,15 +246,3 @@ h2 {
 	letter-spacing: 0;
 	text-shadow: -1px 0 rgba(0, 0, 0, 0.5), 0 2px rgba(0, 0, 0, 0.5), 2px 0 rgba(0, 0, 0, 0.5), 0 -1px rgba(0, 0, 0, 0.5);
 }
-
-
-
-/*.training-quote2 {
-	font-family: 'Kanit', sans;
-}
-.training-quote3 {
-	font-family: 'Black and White Picture', sans;
-}
-.training-quote1 {
-	font-family: 'Acme', sans;
-}*/
