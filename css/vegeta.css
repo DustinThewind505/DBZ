@@ -207,16 +207,17 @@ border-radius: 80px;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	margin: 4% 0;
+	background-color: burlywood;
 }
 
 #family img {
 	width: 50%;
 	height: 45em;
-	z-index: -1;
 }
 #family h2 {
-	margin-bottom: -20%;
-	background-color: none;
+	
+	
 }
 
 .vegeta-family-middle {
