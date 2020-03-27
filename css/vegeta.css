@@ -18,7 +18,7 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	position: fixed;
-	opacity: 0.95;
+	opacity: 0.97;
 	border-bottom: 1px solid rgb(89, 89, 255);
 }
 
@@ -64,42 +64,50 @@ iframe {
 }
 
 .vegeta-bio-container {
-	width: 97%;
+	width: 95%;
 	display: flex;
 	flex-direction: column;
 	background-color: darkgoldenrod;
+	border: 3px solid black;
 	border-top-left-radius: 80px;
 	border-top-right-radius: 80px;
 }
 
-.vegeta-bio-container h2 {
+.bio-bottom {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.bio-top {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 3%;
 	border-bottom: 2px solid black;
 }
 
-.vegeta-bio {
-	display: flex;
-	justify-content: space-between;
-	align-items: flex-start;
-}
-
 .bio-left {
-	width: 85%;
+	width: 65%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	
+	text-align: center;
 }
 
 .bio-left p {
-	width: 90%;
 	font-family: 'Permanent Marker', sans;
-	font-size: 1.1em;
+	font-size: 1.2em;
+	line-height: 2em;
 	margin-left: 5%;
+} 
+
+.bio-right {
+	width: 30%
 }
 
 .bio-picture {
 width: 90%;
-border-radius: 8px;
+border-radius: 80px;
 }
 
 .bio-story {
