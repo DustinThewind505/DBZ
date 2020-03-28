@@ -68,7 +68,6 @@ iframe {
 
 /* ====top section==== */
 .home-top-section {
-  width: 90%;
   background-color: darkorange;
   display: flex;
   flex-direction: column;
@@ -83,20 +82,26 @@ iframe {
 }
 
 /* ====footer==== */
-footer{
-    border-radius: 30px;
-    width: 1000px;
-    margin: 20px;
-    display: flex;
-    align-items: center;
-  }
+footer {
+  border-top: 2px solid darkorange;
+  background-color: greenyellow;
+  margin-top: 20px;
+  padding: 0 1%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-  footer img {
-      width: 2em;
-      height: 3em;
-  }
+footer img {
+  width: 2em;
+  height: 3em;
+}
 
-
+/* footer section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} */
   
 /* ===================Gohan page/gohan.html=================== */
 .gohan {
