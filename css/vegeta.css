@@ -175,6 +175,10 @@ border-radius: 80px;
 	line-height: 1.4rem;
 }
 
+#family {
+	border-radius: 20px;
+}
+
 .box-3 {
 	display: flex;
 	flex-direction: column;
@@ -201,7 +205,7 @@ border-radius: 80px;
 	font-family: 'Kanit', sans;
 }
 
-/* =================== training =================== */
+/* =================== family =================== */
 .family {
 	display: flex;
 	flex-direction: column;
@@ -298,7 +302,7 @@ h2 {
 /* ====footer==== */
 footer {
 	border-top: 2px solid darkorange;
-	background-color: goldenrod;
+	background-color: aquamarine;
 	padding: 0 1%;
 	display: flex;
 	justify-content: space-between;
