@@ -120,17 +120,12 @@ border-radius: 80px;
 .vegeta-training-container {
 	display: flex;
 	flex-direction: column;
+	text-align: center;
 }
 
 .vegeta-training {
 	display: flex;
 	justify-content: space-evenly;
-}
-
-.vegeta-training p {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
 }
 
 .vegeta-training div {
@@ -146,7 +141,6 @@ border-radius: 80px;
 .box-1 {
 	font-family: 'Permanent Marker', sans;
 	font-size: 1.5em;
-	list-style-type: none;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
@@ -177,6 +171,7 @@ border-radius: 80px;
 }
 
 .box-2 p {
+	width: 100%;
 	line-height: 1.4rem;
 }
 
@@ -207,7 +202,7 @@ border-radius: 80px;
 }
 
 /* =================== training =================== */
-#family {
+.family {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -226,14 +221,14 @@ border-radius: 80px;
 	border-top: 2px solid black;
 }
 
-#family .family-heading {
+.family-heading {
 	width: 12%;
 	border-left: 2px solid black;
 	border-bottom: 2px solid black;
 	border-bottom-left-radius: 30px;
 }
 
-#family .family-heading-hidden {
+.family-heading-hidden {
 	visibility: hidden;
 }
 
@@ -278,7 +273,7 @@ border-radius: 80px;
 	justify-content: center;
 }
 
-#family .vegeta-family-png {
+.vegeta-family-png {
 	width: 15%;
 	margin-top: 2%;
 }
