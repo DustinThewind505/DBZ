@@ -9,15 +9,7 @@ header {
     margin-left: -40px;
     z-index: 2;
    }
-   
-   footer {
-      background-color: #ffa500;
-      border-radius: 30px;
-      text-align: center;
-      width: 100%;
-      opacity: 0.4;
-      margin: 100px;
-   }
+
   
   body {
       background: url(https://blenderartists.org/uploads/default/original/4X/1/d/b/1dbe31629a286a6041e3879c716267fe041a624e.jpg) repeat;
@@ -100,8 +92,30 @@ header {
     height: auto;
   }
   
-  footer {
-      margin: 25px;
+  /* ====footer==== */
+footer {
+    border-top: 2px solid darkorange;
+    background-color: greenyellow;
+    margin-top: 20px;
+    padding: 0 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  footer img {
+    width: 2em;
+    height: 3em;
+  }
+  
+  .footer-middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer-middle img {
+    width: 100%;
   }
   
   .highlight {

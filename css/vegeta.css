@@ -277,3 +277,29 @@ h2 {
 	letter-spacing: 0;
 	text-shadow: -1px 0 rgba(0, 0, 0, 0.5), 0 2px rgba(0, 0, 0, 0.5), 2px 0 rgba(0, 0, 0, 0.5), 0 -1px rgba(0, 0, 0, 0.5);
 }
+
+/* ====footer==== */
+footer {
+	border-top: 2px solid darkorange;
+	background-color: greenyellow;
+	margin-top: 20px;
+	padding: 0 1%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+  }
+  
+  footer img {
+	width: 2em;
+	height: 3em;
+  }
+  
+  .footer-middle {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
+  
+  .footer-middle img {
+	width: 100%;
+  }
