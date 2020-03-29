@@ -87,7 +87,7 @@ footer {
   border-top: 2px solid darkorange;
   background-color: greenyellow;
   margin-top: 20px;
-  padding: 1% 1%;
+  padding: 1% 1% 0.35;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -107,12 +107,6 @@ footer img {
 .footer-middle img {
   width: 100%;
 }
-
-/* footer section {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-} */
   
 /* ===================Gohan page/gohan.html=================== */
 .gohan {

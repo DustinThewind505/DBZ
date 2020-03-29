@@ -1,6 +1,6 @@
 * {
 	box-sizing: border-box;
-	border: 0;
+	border: 1px solid black;
 	margin: 0;
 	padding: 0;
   }
@@ -213,34 +213,31 @@ border-radius: 80px;
 	justify-content: center;
 	align-items: center;
 	margin: 4% 0;
-	background-color: burlywood;
+	background-color: white;
 	background-image: url("https://i.pinimg.com/736x/f3/bd/10/f3bd1062e634b0699953b98348105419--vegeta-and-trunks-father-and-son.jpg");
-}
-
-#family img {
-	width: 50%;
-	height: 45em;
+	background-repeat: no-repeat;
 }
 
 .vegeta-family-top {
 	width: 100%;
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding: 0 0%;
 }
 
 #family .family-heading {
-	width: 50%;
-	border-radius: 40px;
-	width: 20%;
-	height: 20%;
-	border: 4px solid peachpuff;
-	margin-left: 5%;
+	width: 12%;
+}
+
+#family .family-heading-hidden {
+	visibility: hidden;
 }
 
 .vegeta-family-middle {
-	width: 55%;
+	width: 50%;
 	background-color: burlywood;
-	padding: 3%;
+	padding: 2%;
 	margin-left: 40%;
 	border: 2px solid black;
 	border-radius: 30px;
@@ -254,11 +251,8 @@ border-radius: 80px;
 	justify-content: center;
 }
 
-#family .family-gif {
-	border-radius: 40px;
+#family .vegeta-family-png {
 	width: 20%;
-	height: 20%;
-	border: 4px solid peachpuff;
 }
 
 h1 {
