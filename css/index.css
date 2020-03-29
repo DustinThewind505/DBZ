@@ -87,7 +87,7 @@ footer {
   border-top: 2px solid darkorange;
   background-color: greenyellow;
   margin-top: 20px;
-  padding: 0 1%;
+  padding: 1% 1%;
   display: flex;
   justify-content: space-between;
   align-items: center;
