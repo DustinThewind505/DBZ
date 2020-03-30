@@ -29,7 +29,7 @@ iframe {
   right: 0;
 }
 
-@media all and (max-width: 1200px) {
+@media (max-width: 1200px) {
   iframe {
     width: 40%;
     right: 5px;
@@ -97,7 +97,7 @@ footer {
   border-top: 2px solid darkorange;
   background-color: greenyellow;
   margin-top: 20px;
-  padding: 1% 1% 0.35;
+  padding: 0.35% 1%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -128,8 +128,7 @@ footer img {
 }
 /* ====header==== */
 .head-image {
-  width: 560px;
-  height: 315px;
+  width: 40%;
   border: 5px solid #FFF;
   position: absolute;
   right: 0;
@@ -140,7 +139,7 @@ footer img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 862px;
+  width: 57%;
   margin-bottom: 11px;
 }
 
@@ -170,13 +169,13 @@ footer img {
 /* ====profile==== */
 
 .profile {
-	width: 862px;
+	width: 57%;
 	height: 480px;
   background-color: white;
   border: 1px solid gainsboro;
   background-image: url(https://qph.fs.quoracdn.net/main-qimg-7c88af9bf35b687e6fc6c58b7bea1374);
   background-repeat: no-repeat;
-  background-size: 862px 218px;
+  background-size: 100% 218px;
   border-radius: 2px;
   display: flex;
   justify-content: space-between;
@@ -238,7 +237,7 @@ align-items: flex-end;
 }
  /* ====middle section==== */
 .gohan-middle-section {
-  width: 862px;
+  width: 57%;
   background-color: white;
   border: 1px solid gainsboro;
   margin-top: 1%;
@@ -265,6 +264,11 @@ align-items: flex-end;
 
 /* ====sidebar==== */
 aside {
+  display: flex;
+}
+
+aside section {
+  width: 40%;
   background-color: grey;
   display: flex;
   flex-direction: column;
@@ -272,14 +276,18 @@ aside {
   align-items: center;
   position: absolute;
   top: 47%;
-  right: 1%;
-  padding: 0.3%;
+  right: 0;
+  border: 5px solid #FFF;
 }
 
 .gohan-coworkers {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.gohan-exp {
+  display: none;
 }
 
 .profilePicSide {
@@ -289,30 +297,46 @@ aside {
   margin-left: 15px;
 }
 
-@media all and (max-width: 800px) {
-  aside {
-    
-    height: 91%;
-    border: 5px solid #FFF;
-    position: absolute;
-    top: 47%;
-    right: 0;
+@media (max-width: 800px) {
+
+  /* .gohan-home-container{
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    justify-content: space-between;
-    animation-name: colorful;
-  animation-duration: 5s;
-  }
+    align-items: center;
+  } */
+
+  .family-image img {
+    height: 100px;
+}
   
   aside section {
-    width:100%;
+    width: 90%;
+    position: relative;
+    border: 5px solid red;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
+    margin: 0 auto;
   }
+
+  .gohan-exp {
+    display: flex;
+  }
+
+  .gohan-top-section {
+    width: 100%;
+    margin-top: 3%;
+  }
+  
+  .gohan-middle-section {
+    width: 100%;
+  }
+
+  .profile {
+    width: 100%;
+  }
+  
    
 }
 

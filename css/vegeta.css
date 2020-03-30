@@ -303,7 +303,7 @@ h2 {
 footer {
 	border-top: 2px solid darkorange;
 	background-color: aquamarine;
-	padding: 0 1%;
+	padding: 0.35% 1%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
