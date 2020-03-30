@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  border: 0;
+  border: 1px solid black;
 }
 
 
@@ -140,30 +140,45 @@ footer img {
   justify-content: space-between;
   align-items: center;
   width: 57%;
-  margin-bottom: 11px;
+  padding: 1% 0.5% 3%;
+  background-color: white;
+  border: 1px solid gainsboro;
+  border-bottom: 0;
 }
 
-.gohan-top-section img {
-	width: 50px;
-  height: 50px;
-}
-.gohan-top-section img.gohan-shop {
-  width: 200px;
-  }
-
-.gohan-top-section a {
-	font-family: sans-serif;
-	font-weight: bold;
-	margin-left: 100px;
+.gohan-top-linked-img {
+  width: 33%;
+  display: flex;
 }
 
-
+.gohan-sign-in-container {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 8%;
+}
 
 .gohan-sign-in {
   border: 1.5px solid #0073b1;
   color: #0073b1;
   border-radius: 2px;
-  padding: 10px 25px;
+  padding: 5% 13%;
+}
+
+.gohan-shop-container {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  }
+
+.gohan-shop-container img {
+  width: 50%;
+}
+
+.gohan-top-section a {
+	font-family: sans-serif;
+	font-weight: bold;
 }
 
 /* ====profile==== */

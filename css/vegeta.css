@@ -192,6 +192,15 @@ border-radius: 80px;
 	border-radius: 20px;
 }
 
+.training-picture-1 {
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.training-picture-2 {
+	border-top-right-radius: 0;
+}
+
 .training-gif {
 	width: 50%;
 	border-radius: 30px;
