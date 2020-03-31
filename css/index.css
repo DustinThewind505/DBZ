@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  border: 0;
+  border: 1px solid black;
 }
 
 
@@ -124,6 +124,7 @@ footer img {
 
 .gohan-home-container {
   background-color: lightcyan;
+  padding-bottom: 2%;
 }
 /* ====header==== */
 .head-image {
@@ -266,7 +267,7 @@ footer img {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-left: 1.7%;
+  margin-left: 2%;
 }
 
 .lambda-logo {
@@ -278,28 +279,59 @@ footer img {
 
 /* ====sidebar==== */
 aside {
+  width: 39%;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
+  align-items: center;
   margin: 1% 0 0;
+  position: absolute;
+  top: 47%;
+  right: 1%;
 }
 
 aside section {
-  width: 40%;
-  background-color: grey;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  top: 47%;
-  right: 0;
+}
+
+.gohan-promo {
+  width: 100%;
+  background-color: white;
+  flex-direction: row;
+  justify-content: space-evenly;
   border: 2px solid gainsboro;
+  padding:  0;
+}
+
+.gohan-promo img {
+  width: 25%;
+}
+
+.gohan-promo p {
+  font-size: 10rem;
+  padding-bottom: 6%;
 }
 
 .gohan-coworkers {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: flex-start;
+}
+
+.gohan-coworkers a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+}
+
+.gohan-coworkers h4:hover {
+  color: blue;
+  text-decoration: underline;
 }
 
 .gohan-exp {
@@ -315,7 +347,6 @@ aside section {
 	width: 60px;
 	height: 60px;
   border-radius: 120px;
-  margin-left: 15px;
 }
 
 @media (max-width: 800px) {
@@ -343,7 +374,7 @@ aside section {
   }
 
   .gohan-exp {
-    width: 55%;
+    width: 65%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -357,7 +388,7 @@ aside section {
   
   .gohan-middle-section {
     width: 95%;
-    margin: 0 auto;
+    margin: 3% auto;
   }
 
   .profile {
