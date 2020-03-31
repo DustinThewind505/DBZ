@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  border: 1px solid black;
+  border: 0;
 }
 
 
@@ -96,7 +96,6 @@ iframe {
 footer {
   border-top: 2px solid darkorange;
   background-color: greenyellow;
-  margin-top: 20px;
   padding: 0.35% 1%;
   display: flex;
   justify-content: space-between;
@@ -234,7 +233,8 @@ footer img {
 
 .profile-right {
   width: 50%;
-align-items: flex-end;
+  display: flex;
+  align-items: flex-end;
 }
 
 .profilePic {
@@ -246,9 +246,8 @@ align-items: flex-end;
 }
 
 .profilePicBottom {
-	width: 250px;
-  height: 250px;
-  margin: 0  0 5px 100px;
+  width: 60%;
+  margin-bottom: 1%;
 }
  /* ====middle section==== */
 .gohan-middle-section {
@@ -281,7 +280,7 @@ align-items: flex-end;
 aside {
   display: flex;
   justify-content: space-between;
-  margin: 1% 0;
+  margin: 1% 0 0;
 }
 
 aside section {
@@ -321,18 +320,14 @@ aside section {
 
 @media (max-width: 800px) {
 
-  /* .gohan-home-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  } */
-
   .family-image img {
     height: 100px;
 }
 
   aside {
     background-color: lightcyan;
+    width: 95%;
+    margin: 0 auto;
   }
   
   aside section {
@@ -355,16 +350,24 @@ aside section {
   }
 
   .gohan-top-section {
-    width: 100%;
+    width: 95%;
     margin-top: 3%;
+    margin: 0 auto;
   }
   
   .gohan-middle-section {
-    width: 100%;
+    width: 95%;
+    margin: 0 auto;
   }
 
   .profile {
-    width: 100%;
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .profilePicBottom {
+    width: 70%;
+    margin-bottom: 2%;
   }
   
    
