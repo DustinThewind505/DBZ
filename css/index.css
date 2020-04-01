@@ -165,11 +165,22 @@ footer img {
   margin-left: 8%;
 }
 
+.gohan-register:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
 .gohan-sign-in {
   border: 1.5px solid #0073b1;
   color: #0073b1;
   border-radius: 2px;
   padding: 5% 13%;
+}
+
+.gohan-sign-in:hover {
+  color: white;
+  background-color: #0073b1;
+  transition: 0.5s;
 }
 
 .gohan-shop-container {
@@ -238,6 +249,11 @@ footer img {
   padding: 0 24px;
 }
 
+.profile a:hover {
+  background: #202078;
+  transition: background .5s;  
+}
+
 .profile-right {
   width: 50%;
   display: flex;
@@ -303,7 +319,6 @@ aside section {
 }
 
 aside h3 {
-  background-color: yellow;
   width: 100%;
   /* margin: 5% 0; */
   font-size: 1.5rem;
