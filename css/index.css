@@ -22,7 +22,6 @@ a {
 }
 
 iframe {
-
   background-color: #000000;
   border: 5px solid #FFF;
   position: absolute;
@@ -329,7 +328,7 @@ aside h3 {
   background-color: white;
   flex-direction: row;
   justify-content: space-evenly;
-  border: 2px solid gainsboro;
+  border: 1px solid gainsboro;
 }
 
 .gohan-promo img {
@@ -364,10 +363,6 @@ aside h3 {
   padding: 4% 0;
 }
 
-.gohan-coworkers a:last-child {
-  border-bottom: 0;
-}
-
 .gohan-coworkers h4:hover {
   color: blue;
   text-decoration: underline;
@@ -388,6 +383,14 @@ aside h3 {
   border-radius: 120px;
 }
 
+@media (max-width: 1300px) {
+  aside {
+    top: 32%
+  }
+  
+
+}
+
 @media (max-width: 800px) {
 
   .family-image img {
@@ -395,21 +398,44 @@ aside h3 {
 }
 
   aside {
-    background-color: lightcyan;
     width: 95%;
+    background-color: lightcyan;
+    align-items: center;
     margin: 0 auto;
+    position: relative;
   }
   
   aside section {
-    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-  }  
+  }
   
-  .gohan-coworkers {
+  .gohan-promo {
+    display: none;
+  }
 
+  .gohan-coworkers1 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
+
+  .gohan-coworkers1 a {
+    width: 50%;
+    margin: 0;
+    border-bottom: 1px solid black;
+  }
+
+  /* .gohan-coworkers1 div {
+    width: 70%;
+    margin: 0 auto;
+    border-bottom: 2px solid gainsboro;
+  } */
+  
+  .coworkers2 {
+    display: none;
   }
 
   .gohan-exp {
@@ -442,7 +468,4 @@ aside h3 {
   
    
 }
-
-
-  
 
