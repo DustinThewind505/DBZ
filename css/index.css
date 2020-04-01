@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  border: 1px solid black;
+  border: 0;
 }
 
 
@@ -79,17 +79,23 @@ iframe {
 /* ====top section==== */
 .home-top-section {
   background-color: darkorange;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/CSS3_and_HTML5_logos_and_wordmarks.svg/1280px-CSS3_and_HTML5_logos_and_wordmarks.svg.png");
+  background-repeat: no-repeat;
+  background-size: 20%;
+  background-position-x: 98%;
+  background-position-y: 98%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 5%;
+  margin: 5% 0 5%;
   padding-bottom: 5%;
 }
 
 .home-top-section section {
   width: 50%;
   background-color: beige;
-  display: flex
+  display: flex;
+  visibility: hidden;
 }
 
 /* ====footer==== */
@@ -283,7 +289,7 @@ aside {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   margin: 1% 0 0;
   position: absolute;
   top: 47%;
@@ -293,8 +299,14 @@ aside {
 aside section {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+}
+
+aside h3 {
+  background-color: yellow;
+  width: 100%;
+  /* margin: 5% 0; */
+  font-size: 1.5rem;
 }
 
 .gohan-promo {
@@ -303,7 +315,6 @@ aside section {
   flex-direction: row;
   justify-content: space-evenly;
   border: 2px solid gainsboro;
-  padding:  0;
 }
 
 .gohan-promo img {
@@ -316,10 +327,18 @@ aside section {
 }
 
 .gohan-coworkers {
-  display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
-  align-items: flex-start;
+}
+
+.gohan-coworkers1 {
+  width: 50%;
+}
+
+.gohan-coworkers1 div {
+  width: 70%;
+  margin: 0 auto;
+  border-bottom: 2px solid gainsboro;
 }
 
 .gohan-coworkers a {
@@ -327,6 +346,11 @@ aside section {
   justify-content: space-between;
   align-items: center;
   color: black;
+  padding: 4% 0;
+}
+
+.gohan-coworkers a:last-child {
+  border-bottom: 0;
 }
 
 .gohan-coworkers h4:hover {
