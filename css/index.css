@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  border: 0;
+  border: 1px solid black;
 }
 
 
@@ -398,7 +398,7 @@ aside h3 {
   justify-content: space-between;
   align-items: center;
   color: black;
-  padding: 4% 0;
+  padding: 4% 0 0;
   margin: 4% 0;
 }
 
@@ -413,6 +413,17 @@ aside h3 {
 
 .gohan-exp img {
   width: 100%;
+}
+
+.gohan-linkedin-learning {
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.gohan-linkedin-learning a {
+  width: 50%;
+  display: flex;
 }
 
 .profilePicSide {
