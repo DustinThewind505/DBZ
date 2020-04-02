@@ -424,6 +424,21 @@ aside h3 {
 .gohan-linkedin-learning a {
   width: 50%;
   display: flex;
+  margin: 1% 0;
+}
+
+.gohan-linkedin-promo {
+  width: 100%;
+  font-size: 10rem;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 1%;
+}
+
+.gohan-linkedin-promo img{
+  width: 45%;
+
+  flex-direction: row;
 }
 
 .profilePicSide {
