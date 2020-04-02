@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  border: 1px solid black;
+  border: 0;
 }
 
 
@@ -290,7 +290,6 @@ footer img {
 }
 
 .gohan-middle-section h3 {
-  
   font-size: 1.5rem;
 }
 
@@ -312,18 +311,19 @@ footer img {
   background-color: white;
   border: 1px solid gainsboro;
   margin-top: 1%;
-  padding: 1%;
+ }
+
+ .gohan-middle-section-exp h3 {
+  padding: 2%;
+ }
+
+ .gohan-middle-section-exp h3:last-of-type {
+  border-top: 1px solid gainsboro;
  }
 
  .gohan-middle-section-exp section {
-  
   display: flex;
-  padding: 2% 0;
-  border-bottom: 1px solid gainsboro;
- }
-
- .gohan-middle-section-exp div {
-  border: 1px solid black;
+  padding: 2% 0 2% 2%;
  }
 
  .gohan-middle-section-exp img {
@@ -333,6 +333,10 @@ footer img {
 
  .exp-description {
    padding: 0 2% 2%;
+ }
+
+ .exp-description1 {
+  border-bottom: 1px solid gainsboro;
  }
 
 /* ====sidebar==== */
@@ -381,6 +385,7 @@ aside h3 {
   flex-direction: row;
   justify-content: space-between;
   border-bottom: 1px solid gainsboro;
+  padding-bottom: 2%;
 }
 
 .gohan-coworkers1 {
@@ -398,12 +403,12 @@ aside h3 {
   justify-content: space-between;
   align-items: center;
   color: black;
-  padding: 4% 0 0;
-  margin: 4% 0;
+  padding: 4% 0;
+  margin: 4% 0 0;
 }
 
 .gohan-coworkers1 a:hover {
-  color: lightskyblue;
+  color: dodgerblue;
 }
 
 .gohan-exp {
@@ -415,29 +420,62 @@ aside h3 {
   width: 100%;
 }
 
+.gohan-linkedin-learning-link {
+  color: navy;
+  font-size: 1.3rem;
+  margin: 4% 0 0;
+}
+
+.gohan-linkedin-learning-link:hover {
+  color: purple;
+}
+
 .gohan-linkedin-learning {
-  width: 100%;
+  width: 75%;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
 .gohan-linkedin-learning a {
   width: 50%;
+  color: black;
   display: flex;
-  margin: 1% 0;
+  margin: 2% 0;
+}
+
+.gohan-linkedin-learning a:hover {
+  color: navy;
+  }
+
+.gohan-linkedin-learning a img {
+  width: 60px;
+	height: 40px;
+}
+
+.gohan-linkedin-learning a div {
+  font-size: 0.8rem;
+  padding: 1%;
+  margin-left: 1%;
+}
+
+.gohan-linkedin-learning a h6 {
+  font-size: 0.8rem;
 }
 
 .gohan-linkedin-promo {
-  width: 100%;
+  width: 75%;
+  background-color: white;
   font-size: 10rem;
   flex-direction: row;
   justify-content: space-evenly;
-  padding: 1%;
+  padding: 3% 1%;
+  margin-top: 1%;
+  border: 1px solid gainsboro;
+  visibility: hidden;
 }
 
 .gohan-linkedin-promo img{
   width: 45%;
-
   flex-direction: row;
 }
 
@@ -509,11 +547,11 @@ aside h3 {
 
   .gohan-coworkers1 a:hover {
     background-color: white;
-    color: lightskyblue;
+    color: dodgerblue;
   }
 
   .gohan-coworkers h4:hover {
-    color: lightskyblue;
+    color: dodgerblue;
     text-decoration: none;
   }
 
