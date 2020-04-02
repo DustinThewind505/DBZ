@@ -282,7 +282,7 @@ footer img {
   background-color: white;
   border: 1px solid gainsboro;
   margin-top: 1%;
-  padding: 0.5%;
+  padding: 1%;
  }
 
 .gohan-middle-section section {
@@ -290,7 +290,7 @@ footer img {
 }
 
 .gohan-middle-section h3 {
-  padding: 1% 0 1% 1%;
+  
   font-size: 1.5rem;
 }
 
@@ -307,6 +307,33 @@ footer img {
   margin-left: 10px;
 }
 
+.gohan-middle-section-exp {
+  width: 57%;
+  background-color: white;
+  border: 1px solid gainsboro;
+  margin-top: 1%;
+  padding: 1%;
+ }
+
+ .gohan-middle-section-exp section {
+  
+  display: flex;
+  padding: 2% 0;
+  border-bottom: 1px solid gainsboro;
+ }
+
+ .gohan-middle-section-exp div {
+  border: 1px solid black;
+ }
+
+ .gohan-middle-section-exp img {
+  width: 56px;
+  height: 56px;
+ }
+
+ .exp-description {
+   padding: 0 2% 2%;
+ }
 
 /* ====sidebar==== */
 aside {
@@ -329,7 +356,7 @@ aside section {
 
 aside h3 {
   width: 100%;
-  /* margin: 5% 0; */
+  margin: 4% 0 0;
   font-size: 1.5rem;
 }
 
@@ -353,6 +380,7 @@ aside h3 {
 .gohan-coworkers {
   flex-direction: row;
   justify-content: space-between;
+  border-bottom: 1px solid gainsboro;
 }
 
 .gohan-coworkers1 {
@@ -371,6 +399,7 @@ aside h3 {
   align-items: center;
   color: black;
   padding: 4% 0;
+  margin: 4% 0;
 }
 
 .gohan-coworkers1 a:hover {
