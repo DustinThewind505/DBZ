@@ -161,6 +161,10 @@ footer img {
   display: flex;
 }
 
+.gohan-top-linked-img img {
+  width: 33%;
+}
+
 .gohan-sign-in-container {
   width: 33%;
   display: flex;
