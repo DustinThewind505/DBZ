@@ -99,8 +99,9 @@ iframe {
 
 /* ====footer==== */
 footer {
-  border-top: 2px solid darkorange;
-  background-color: greenyellow;
+  background: left no-repeat url("../images/roshilogo.png");
+  background-size: 6%;
+  background-color: black;
   padding: 0.35% 1%;
   display: flex;
   justify-content: space-between;
@@ -116,11 +117,17 @@ footer img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: white;
 }
 
 .footer-middle img {
   width: 100%;
 }
+
+/* .footer-roshi {
+  width: 5rem;
+  height: 5rem;
+} */
   
 /* ===================Gohan page/gohan.html=================== */
 .gohan {
