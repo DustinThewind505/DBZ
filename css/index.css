@@ -81,8 +81,10 @@ iframe {
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/CSS3_and_HTML5_logos_and_wordmarks.svg/1280px-CSS3_and_HTML5_logos_and_wordmarks.svg.png");
   background-repeat: no-repeat;
   background-size: 20%;
-  background-position-x: 98%;
+  background-position-x: 50%;
   background-position-y: 98%;
+  border: 10px solid black;
+  border-radius: 35%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -96,6 +98,19 @@ iframe {
   display: flex;
   visibility: hidden;
 }
+
+.top-section-logo {
+  width: 75%;
+  margin: 5% 0% 5%;
+}
+
+.glitch {
+  margin: 5% 0 5%;
+}
+
+.top-section-android-image {
+  margin: 5% 0 10%;
+} 
 
 /* ====footer==== */
 footer {
