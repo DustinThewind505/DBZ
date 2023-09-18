@@ -104,6 +104,17 @@ iframe {
   margin: 5% 0% 5%;
 }
 
+.saiyan-saga-logo {
+  background: url(https://media.giphy.com/media/3o6Ztb45EYezY9x9gQ/giphy.gif);
+  background-size: contain;
+  color: transparent;
+  font-size: 6rem;
+  font-weight: bolder;
+  outline: none;
+  text-transform: uppercase;
+  -webkit-background-clip: text;
+}
+
 .glitch {
   font-size: 6rem;
   font-weight: 700;
@@ -125,12 +136,14 @@ iframe {
   animation: glitch 500ms infinite;
   clip-path: polygon(0 0, 100% 0, 100% 45%, 0 45%);
   transform: translate(-0.015em, -0.025em);
+  opacity: 0.8;
 }
 
 .glitch span:last-child {
   animation: glitch 300ms infinite;
   clip-path: polygon(0% 75%, 100% 45%, 100% 100%, 0 100%);
   transform: translate(0.0125em, 0.0125em);
+  opacity: 0.8;
 }
 
 @keyframes glitch {
