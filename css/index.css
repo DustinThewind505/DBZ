@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Sacramento&display=swap");
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -105,7 +107,7 @@ iframe {
 }
 
 .saiyan-saga-logo {
-  background: url(https://media.giphy.com/media/3o6Ztb45EYezY9x9gQ/giphy.gif);
+  background: url(../images/light-shower.gif);
   background-size: contain;
   color: transparent;
   font-size: 6rem;
@@ -118,7 +120,7 @@ iframe {
 .glitch {
   font-size: 6rem;
   font-weight: 700;
-  margin: 5% 0 5%;
+  margin-top: 5%;
   text-shadow:
   .05em 0 darkred,
   -.025em -.05em red,
@@ -195,7 +197,68 @@ iframe {
 .top-section-android-image {
   border: 3px solid black;
   border-radius: 10%;
-  margin: 5% 0 10%;
+  margin: 3% 0 10%;
+} 
+
+.neon {
+  font-size: calc(20px + 18vh);
+  line-height: calc(20px + 20vh);
+  text-shadow: 0 0 5px lightpink, 0 0 15px lightpink, 0 0 20px lightpink, 0 0 40px lightpink, 0 0 60px magenta, 0 0 10px pink, 0 0 98px magenta;
+  color: salmon;
+  font-family: "Sacramento", cursive;
+  text-align: center;
+  animation: blink 12s infinite;
+  -webkit-animation: blink 12s infinite;
+}
+
+@-webkit-keyframes blink {
+  20%,
+  24%,
+  55% {
+    color: darkorange;
+    text-shadow: none;
+  }
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+    text-shadow: 0 0 5px lightpink, 0 0 15px lightpink, 0 0 20px lightpink, 0 0 40px lightpink, 0 0 60px magenta, 0 0 10px pink, 0 0 98px magenta;
+    color: salmon;
+  }
+}
+
+@keyframes blink {
+  20%,
+  24%,
+  55% {
+    color: darkorange;
+    text-shadow: none;
+  }
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+    text-shadow: 0 0 5px lightpink, 0 0 15px lightpink, 0 0 20px lightpink, 0 0 40px lightpink, 0 0 60px magenta, 0 0 10px pink, 0 0 98px magenta;
+    color: salmon;
+  }
+}
+
+.top-section-buu-image {
+  border: 3px solid black;
+  width: 640px;
+  height: 400px;
+  border-radius: 10%;
+  margin: 3% 0 20%;
 } 
 
 /* ====footer==== */
