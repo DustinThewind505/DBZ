@@ -103,7 +103,7 @@ iframe {
 
 .top-section-logo {
   width: 75%;
-  margin: 5% 0% 5%;
+  margin: 10% 0% 10%;
 }
 
 .saiyan-saga-logo {
@@ -194,10 +194,25 @@ iframe {
 
 }
 
+/* ======== User setting for motion sickness ======== */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-delay: -1ms !important;
+    animation-duration: 1ms !important;
+    animation-iteration-count: 1 !important;
+    background-attachment: initial !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0s !important;
+    transition-delay: 0s !important;
+  }
+}
+
 .top-section-android-image {
   border: 3px solid black;
   border-radius: 10%;
-  margin: 3% 0 10%;
+  margin: 3% 0 8%;
 } 
 
 .neon {
@@ -207,11 +222,12 @@ iframe {
   color: salmon;
   font-family: "Sacramento", cursive;
   text-align: center;
-  animation: blink 12s infinite;
-  -webkit-animation: blink 12s infinite;
+  animation: blink 7s infinite;
+  -webkit-animation: blink 7s infinite;
 }
 
 @-webkit-keyframes blink {
+  18%,
   20%,
   24%,
   55% {
@@ -233,6 +249,7 @@ iframe {
 }
 
 @keyframes blink {
+  18%,
   20%,
   24%,
   55% {
@@ -260,6 +277,84 @@ iframe {
   border-radius: 10%;
   margin: 3% 0 20%;
 } 
+
+/* :root {
+  font-size: 32px;
+  font-family: "Concert One", cursive;
+} */
+
+.friezaFont {
+  font-size: 9rem;
+  animation: 5s rotate ease-in-out infinite;
+  font-family: "Concert One", cursive;
+}
+
+.friezaFont::before,
+.friezaFont::after {
+  content: "Frieza Saga";
+}
+
+.friezaFont::before,
+.friezaFont::after {
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+}
+/* .friezaFont::before {
+  color: rgba(0, 212, 255, 1);
+  animation: 5s h1-before ease-in-out infinite;
+}
+.friezaFont::after {
+  z-index: -2;
+  color: rgba(9, 9, 121, 1);
+  animation: 5s h1-after ease-in-out infinite;
+} */
+
+.friezaFont::before {
+  color: darkmagenta;
+  animation: 5s h1-before ease-in-out infinite;
+}
+.friezaFont::after {
+  z-index: -2;
+  color: purple;
+  animation: 5s h1-after ease-in-out infinite;
+}
+.friezaFont {
+  position: relative;
+  color: pink;
+  margin: 0;
+  padding: 0;
+}
+@keyframes rotate {
+  0%,
+  100% {
+    transform: rotate3d(0, 1, 0, -20deg);
+  }
+  50% {
+    transform: rotate3d(0, 1, 0, 20deg);
+  }
+}
+
+@keyframes h1-before {
+  0%,
+  100% {
+    transform: translate3d(15px, 3px, -10px);
+  }
+  50% {
+    transform: translate3d(-15px, 3px, -10px);
+  }
+}
+@keyframes h1-after {
+  0%,
+  100% {
+    transform: translate3d(30px, 9px, -20px);
+  }
+  50% {
+    transform: translate3d(-30px, 9px, -20px);
+  }
+}
+
 
 /* ====footer==== */
 footer {
@@ -289,17 +384,3 @@ footer img {
 }
 
 
-
-@media (prefers-reduced-motion: reduce) {
-  *,
-  ::before,
-  ::after {
-    animation-delay: -1ms !important;
-    animation-duration: 1ms !important;
-    animation-iteration-count: 1 !important;
-    background-attachment: initial !important;
-    scroll-behavior: auto !important;
-    transition-duration: 0s !important;
-    transition-delay: 0s !important;
-  }
-}
