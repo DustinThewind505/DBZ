@@ -192,6 +192,14 @@
     height: 20px;
     margin-left: 10px;
   }
+
+  .gohan-middle-section-feat {
+    width: 57%;
+    background-color: white;
+    border: 1px solid gainsboro;
+    margin-top: 1%;
+    padding: 1%;
+   }
   
   .gohan-middle-section-exp {
     width: 57%;
