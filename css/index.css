@@ -101,6 +101,23 @@ iframe {
   visibility: hidden;
 }
 
+.home-top-section > img {
+  animation: fade-in linear;
+  animation-timeline: view();
+  animation-range: entry;
+}
+
+@keyframes fade-in {
+  from {
+    scale: .8;
+    opacity: 0;
+  }
+  to {
+    scale: 1;
+    opacity: 1;
+  }
+}
+
 .top-section-logo {
   width: 75%;
   margin: 10% 0% 10%;
@@ -278,11 +295,6 @@ iframe {
   margin: 3% 0 20%;
 } 
 
-/* :root {
-  font-size: 32px;
-  font-family: "Concert One", cursive;
-} */
-
 .friezaFont {
   font-size: 9rem;
   animation: 5s rotate ease-in-out infinite;
@@ -301,31 +313,25 @@ iframe {
   left: 0;
   top: 0;
 }
-/* .friezaFont::before {
-  color: rgba(0, 212, 255, 1);
-  animation: 5s h1-before ease-in-out infinite;
-}
-.friezaFont::after {
-  z-index: -2;
-  color: rgba(9, 9, 121, 1);
-  animation: 5s h1-after ease-in-out infinite;
-} */
 
 .friezaFont::before {
   color: darkmagenta;
   animation: 5s h1-before ease-in-out infinite;
 }
+
 .friezaFont::after {
   z-index: -2;
   color: purple;
   animation: 5s h1-after ease-in-out infinite;
 }
+
 .friezaFont {
   position: relative;
   color: pink;
   margin: 0;
   padding: 0;
 }
+
 @keyframes rotate {
   0%,
   100% {
