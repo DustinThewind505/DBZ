@@ -259,6 +259,7 @@ border-radius: 80px;
 	background-color: white;
 	background-image: url("https://i.pinimg.com/736x/f3/bd/10/f3bd1062e634b0699953b98348105419--vegeta-and-trunks-father-and-son.jpg");
 	background-repeat: no-repeat;
+	background-position: left bottom;
 }
 
 .vegeta-family-top {
@@ -280,7 +281,30 @@ border-radius: 80px;
 	visibility: hidden;
 }
 
-.vegeta-family-middle {
+.vegeta-family-profiles {
+	background-color: burlywood;
+	padding: 2%;
+	margin-left: 40%;
+	border: 2px solid black;
+	border-radius: 30px;
+	font-family: 'Acme', sans;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.vegeta-family-profile-photo {
+	width: 6rem;
+	height: 6rem;
+	border: 3px solid black;
+	border-radius: 50%;
+}
+
+.vegeta-family-profile-photo:hover {
+	scale: 1.05;
+}
+
+.vegeta-family-album {
 	width: 50%;
 	background-color: burlywood;
 	padding: 2%;
@@ -293,7 +317,7 @@ border-radius: 80px;
 	align-items: center;
 }
 
-.vegeta-family-middle p {
+.vegeta-family-album-photos {
 	width: 45%;
 }
 
@@ -346,6 +370,8 @@ h2 {
 /* ====footer==== */
 footer {
 	border-top: 2px solid darkorange;
+	background: left no-repeat url("../images/roshilogo.png");
+  	background-size: 6%;
 	background-color: aquamarine;
 	padding: 0.35% 1%;
 	display: flex;
